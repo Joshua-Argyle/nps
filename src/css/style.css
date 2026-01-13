@@ -95,17 +95,28 @@ img {
   max-width: 100%;
 }
 
-body {
+body, a {
   font-family: var(--bs-body-font-family);
-  font-size: 18px;
+  font-size: 11px;
   margin: 0;
+  
 }
+span {
+  color: white;
 
+}
+a {
+  text-decoration: none;
+  color: white;
+}
 a:link,
 a:visited {
-  color: var(--bs-link-color);
+ /* color: var(--bs-link-color); */
 }
-
+.real-site-link {
+  color:blue;
+  text-decoration: solid;
+}
 a:hover {
   color: var(--bs-link-hover-color);
 }
@@ -136,10 +147,17 @@ a:hover {
 .site-title {
   display: flex;
   align-items: center;
+  color: white;
+  
+
 }
 .site-title > span {
   font-size: 1rem;
   margin-left: 0.3em;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+  
 }
 
 .logo {
@@ -170,4 +188,106 @@ a:hover {
 svg {
   background-color: var(--bs-black);
   fill: white;
+}
+.global-header {
+  display: flex;
+  background-color: black;
+  height: 50px;
+  padding: 20px;
+  width: 100%;
+}
+.site-title {
+  width: 80%;
+  
+}
+.global-header__right {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  justify-content: right;
+}
+#global-nav-toggle {
+    display: flex;
+    align-items: center;   
+    gap: 2px;   
+    background-color: black;  
+    justify-content: right;
+          
+}
+.search-icon {
+  justify-self: center;
+  background-color: none;
+  margin-right: 10px;
+  
+}
+.menu {
+  color: white;
+}
+#park-header {
+  background-color: black;
+
+}
+.hero-banner {
+  width: 100%;
+}
+
+.park_nav_list {
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  
+}
+.park_nav_a {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 15px; 
+    padding-top: 0px;   
+}
+
+.hidden {
+    display: none;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0, auto;
+}
+button {
+ border-top: none;
+}
+.hero {
+  width: 100%;
+}
+.hero-banner {
+  position: relative;;
+}
+.hero-banner__content {
+  display: flex;
+  position: absolute; 
+  bottom: 0px; 
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 60px;;
+  padding-top: 10px;
+  padding-bottom: 10px;;
+}
+.hero_banner_title {
+  font-size: 2.2em;
+  color: white;
+  padding: 10px;
+  
+}
+
+.hero_banner_subtitle {
+  width: 100px;
+  white-space: wrap;
+}
+@media (max-width: 1025px) {
+    
 }
