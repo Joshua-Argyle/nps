@@ -230,6 +230,7 @@ svg {
 }
 .hero-banner {
   width: 100%;
+  
 }
 
 .park_nav_list {
@@ -288,6 +289,116 @@ button {
   width: 100px;
   white-space: wrap;
 }
-@media (max-width: 1025px) {
+.black {
+  color: black;
+}
+h1 {
+  font-size: 2em;
+  font-style: none;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.infoP {
+  
+}
+.head-links {
+  width: 90%;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+dt {
+  font-weight: bold;
+  padding-bottom: 5px;
+
+}
+dd {
+  
+}
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+.info-p {
+  width: 90%;
+  font-size: 1.2em;
+  
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.intro {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;;
+  margin-bottom: 30px;
+}
+.infoImage {
+  width: 100%;
+  align-self: center;
+}
+footer {
+  background-color: #dee2e6;
+  padding: 4%;
+}
+.intro-p {
+    font-size: 1.2em;
+  }
+@media (min-width: 400px) {
+  .hero {
+  max-height: 400px;
+  object-fit: cover;
+}
+@media (min-width: 650px) {
+  .park_nav_list {
+    gap: 20px;
+  }
+  .info {
+    flex-direction: row;
+    padding-bottom: 20px;
     
+  }
+  h1 {
+    text-align: left;
+    padding-left: 30px;
+    font-size: 2.5em;
+  }
+  .intro {
+    width: 100%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  .intro-p {
+    font-size: 1.6em;
+    width: 100%;
+    padding-left: 30px;
+    
+  }
+  .infoImage {
+  width: 95%;
+  height: 30%;     
+  object-fit: cover; 
+  } 
+  .container {
+    width: 33%
+  }
+  .icon {
+    width: 25px; 
+    height: 25px;
+  }
+  footer {
+    padding: 2%;
+  }
+}
 }
