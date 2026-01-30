@@ -1,5 +1,5 @@
 import { getParkData } from "./parkService.mjs";
-const parkData = getParkData();
+const parkData = await getParkData();
 export function setHeaderFooter() {
  function setHeaderInfo(data) {
 

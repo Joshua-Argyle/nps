@@ -1,0 +1,46 @@
+h1 {
+  font-size: 2em;
+  font-style: none;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+.info-p {
+  width: 90%;
+  font-size: 1.2em;
+  
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.intro {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;;
+  margin-bottom: 30px;
+}
+.infoImage {
+  width: 100%;
+  align-self: center;
+}
+
+.intro-p {
+    font-size: 1.2em;
+  }
