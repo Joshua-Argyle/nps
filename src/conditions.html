@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[Park Name]</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/conditions.js"></script>
   </head>
   <body>
     <p class="disclaimer">
@@ -87,7 +87,7 @@
         </div>
         <nav class="park_nav">
          <ul class="park_nav_list">
-            <a class="park_nav_a" href="conditions.html">
+            <a class="park_nav_a" href="conditins.html">
              <span>Info</span>
               <svg class="icon" role="presentation" focusable="false">
                <use
@@ -142,11 +142,27 @@
       </section>
     </header>
     <main id="main">
-      <section class="intro">
-          [Park Intro] 
+        <h1 class="alert-h1">Current Conditions</h1>
+      <section class="alerts">
+        <h2 class="alerts">Alerts</h2>
+           <ul class="alert-item">
+            <span class="alert-item-header"></span>
+        </ul>
       </section>
-      <section class="info">
-          [Park Info Links]
+      <section class="visitor-center">
+        <h2 class="vcenter-h2">Visitor Services</h2>
+        <details name="current-details">
+            <div>
+            <!-- <summary>Visitor Centers</summary>-->
+            <ul class="vcenter"></ul>
+          </details>
+      </section>
+      <section class="activities">
+        <h2 class="activities-h2">Activities</h2>
+          <details name="current-details">
+            <summary>All Activities</summary>
+            <ul class="activity-list"></ul>
+          </details>
       </section>
     </main>
     <footer id="park-footer">
