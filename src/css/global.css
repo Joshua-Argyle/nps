@@ -12,7 +12,12 @@ body, a {
   font-family: var(--bs-body-font-family);
   font-size: 11px;
   margin: 0;
+  flex-direction: column;
+  height: auto;
   
+}
+.black {
+  color: black;
 }
 span {
   color: white;

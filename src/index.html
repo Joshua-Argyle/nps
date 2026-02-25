@@ -54,22 +54,33 @@
             </svg>
             <span  class="visually-hidden">Search</span>
           </a>
-          <button id="global-nav-toggle">
+
+          <button aria-expanded="false" aria-label="Open Menu" id="global-nav-toggle">
+            <div class="nav_toggle_opened">
             <svg class="icon">
               <use xlink:href="/images/sprite.symbol.svg#menu"></use>
             </svg>
-            <span class=" visually-hidden">Open</span>
             <span class="menu">MENU</span>
-          </button>
         </div>
-        <nav class="global-nav">
-          <h2 class="hidden global-nav__section-heading">Explore this Park</h2>
+            <div class="nav_toggle_closed hidden">
+            <svg class="icon">
+              <use xlink:href="/images/sprite.symbol.svg#close"></use>
+            </svg>
+            <span >Close</span>
+          </div>
+         </button>
+
+        
+
+      </section>
+      <nav class="hidden global-nav">
+          <h2 class="global-nav__section-heading">Explore this Park</h2>
           <ul class="global-nav__list">
             <li>
               <div class="global-nav__split-button">
-                <a class="hidden" href="#">Plan Your Visit</a>
-                <button class="hidden global-nav__split-button__toggle">
-                  <span class="visually-hidden"
+                <a href="#">Plan Your Visit</a>
+                <button class="global-nav__split-button__toggle">
+                  <span class = "hidden black"
                     >Toggle submenu for Plan Your Visit</span
                   >
                   <svg class="icon" role="presentation" focusable="false">
@@ -80,7 +91,7 @@
             </li>
           </ul>
         </nav>
-      </section>
+
       <section id="park-header">
         <div class="hero-banner">
           [Hero Image and info here]

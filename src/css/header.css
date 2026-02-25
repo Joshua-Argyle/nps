@@ -29,13 +29,15 @@
 .global-header {
   display: flex;
   background-color: black;
-  height: 50px;
   padding: 20px;
   width: 100%;
+  margin-bottom: 0;
 }
 .site-title {
-  width: 80%;
-  
+  display: flex;
+  flex-direction: row;
+  justify-self: left;
+
 }
 .global-header__right {
   display: flex;
@@ -47,10 +49,22 @@
 #global-nav-toggle {
     display: flex;
     align-items: center;   
-    gap: 2px;   
+    gap: 2px;
     background-color: black;  
     justify-content: right;
+    
           
+}
+
+.nav-open {
+  max-height: 300px;
+}
+.global-nav {
+  margin-top: 0;
+  width: 100%;
+  transition: all 0.5s ease-in;
+  background-color: black;
+
 }
 .search-icon {
   justify-self: center;
@@ -63,10 +77,11 @@
 }
 #park-header {
   background-color: black;
-
+  margin-top: 0;
 }
 .hero-banner {
   width: 100%;
+  margin-top: 0;
   
 }
 
@@ -88,8 +103,13 @@
 .hero {
   width: 100%;
 }
+header {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
 .hero-banner {
-  position: relative;;
+  position: relative;
 }
 .hero-banner__content {
   display: flex;
