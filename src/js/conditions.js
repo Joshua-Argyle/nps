@@ -54,7 +54,7 @@ function setVisitorCenter(specificParkData) {
   function setAlerts(specificParkData) {
     
   function Alert(info) {
-    let id = "";
+    let id;
     if (info.category === "Caution") {
         id = "caution";
     }
