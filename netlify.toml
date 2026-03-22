@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/visitor-center/*"
+  from = "/visitor-center"
   to = "/visitor-center.html"
   status = 200
 
