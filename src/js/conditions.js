@@ -42,7 +42,7 @@ function setVisitorCenter(specificParkData) {
   function vcenter(info) {
 
     return `<li class="vcenterz">
-            <div><h3><a class="vcenter-item-header" href="visitor-center?id=${info.id}">${info.name}</a></h3>
+            <div><h3><a class="vcenter-item-header" href="/visitor-center.html?id=${info.id}">${info.name}</a></h3>
             <p class="item-content">${info.description}</p></div>
         </li>`;
   }
