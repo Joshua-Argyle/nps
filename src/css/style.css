@@ -5,6 +5,7 @@
 @import "footer.css";
 @import "home.css";
 @import "conditions.css";
+@import "visitor-center.css";
 
 @media (min-width: 400px) {
   .hero {

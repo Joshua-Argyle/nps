@@ -7,7 +7,9 @@
 img {
   max-width: 100%;
 }
-
+ul {
+  list-style: none;
+}
 body, a {
   font-family: var(--bs-body-font-family);
   font-size: 11px;
