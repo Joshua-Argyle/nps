@@ -223,7 +223,7 @@ export async function getJson(url) {
       "X-Api-Key": apiKey
     }
   };
-    let data = {};
+    
   const response = await fetch(baseUrl + url, options);
   // check to make sure the reponse was ok.
   if (response.ok) {
